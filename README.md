@@ -68,6 +68,12 @@ Open packs, Try ur luck, Collect countries
 - Firebase Authentication
 - Firebase Firestore
 
+## How i build this
+
+- 30% AI (Chatgpt & Claude) — Rarity algorithm, pack opening logic, inventory unlock
+- 35% YouTube Tutorials — Login & Register pages, Firebase setup
+- 35% My own knowledge — Most of the HTML and CSS, overall design
+
 ## Author
 
 Me : [xtrawalo](https://github.com/xtrawalo)
