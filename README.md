@@ -6,7 +6,7 @@ WCC is an abbreviation for World Cup Countries and it's a website where u open p
 
 Link here --> [xtrawalo.github.io/WCC](https://xtrawalo.github.io/WCC)
 
-Note: This website is only for PCs with 1920x1080 resolution
+**Note:** This website is only for PCs with 1920x1080 resolution
 
 Open packs, Try ur luck, Collect countries
 
