@@ -6,6 +6,8 @@ WCC is an abbreviation for World Cup Countries and it's a website where u open p
 
 Link here --> [xtrawalo.github.io/WCC](https://xtrawalo.github.io/WCC)
 
+Note: This website is only for PCs with 1920x1080 resolution
+
 Open packs, Try ur luck, Collect countries
 
 ## How to play
@@ -67,6 +69,11 @@ Check ur collection and unlock all countries
 - Vanilla Javascript, HTML, CSS.
 - Firebase Authentication
 - Firebase Firestore
+
+## Compatibility
+
+- PC only
+- Recommended resolution: **1920×1080**
 
 ## How i build this
 
