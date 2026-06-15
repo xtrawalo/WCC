@@ -4,7 +4,7 @@ WCC is an abbreviation for World Cup Countries and it's a website where u open p
 
 ## Demo
 
-Link here --> [xtrawalo.github.io](xtrawalo.github.io)
+Link here --> [xtrawalo.github.io](https://xtrawalo.github.io)
 
 Open packs, Try ur luck, Collect countries
 
