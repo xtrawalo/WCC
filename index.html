@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup Countries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chelsea+Market&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">    
+</head>
+<body>  
+    <audio id="bgMusic" loop>
+        <source src="Assets/Audio/bg.mp3" type="audio/mpeg">
+    </audio>
+    <section class="first">
+        <div class="right">
+            <img src="Assets/Logos/WCLogo.png">
+            <img src="Assets/Logos/WCSlogan.png">            
+            <img src="Assets/Logos/WCLogo.png">          
+            <img src="Assets/Logos/WCSlogan.png">
+            <img src="Assets/Logos/WCLogo.png">
+            <img src="Assets/Logos/WCSlogan.png">
+
+            
+            <img src="Assets/Logos/WCLogo.png">
+            <img src="Assets/Logos/WCSlogan.png">            
+            <img src="Assets/Logos/WCLogo.png">          
+            <img src="Assets/Logos/WCSlogan.png">
+            <img src="Assets/Logos/WCLogo.png">
+            <img src="Assets/Logos/WCSlogan.png">
+    </div>
+    <div class="left">
+            <img src="Assets/Logos/WCLogo.png">
+            <img src="Assets/Logos/WCSlogan.png">            
+            <img src="Assets/Logos/WCLogo.png">          
+            <img src="Assets/Logos/WCSlogan.png">
+            <img src="Assets/Logos/WCLogo.png">
+            <img src="Assets/Logos/WCSlogan.png">
+
+            
+            <img src="Assets/Logos/WCLogo.png">
+            <img src="Assets/Logos/WCSlogan.png">            
+            <img src="Assets/Logos/WCLogo.png">          
+            <img src="Assets/Logos/WCSlogan.png">
+            <img src="Assets/Logos/WCLogo.png">
+            <img src="Assets/Logos/WCSlogan.png">
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <img src="Assets/First/Main.jpg">
+            <img src="Assets/First/Argentina.jpg">
+            <img src="Assets/First/Brazil.jpg">
+            <img src="Assets/First/France.jpg">
+            <img src="Assets/First/Portugal.jpg">
+            <img src="Assets/First/Spain.jpg">
+        </div>
+    </div>
+    </section>
+    <section class="second">
+        <div class="package">
+            <h1>Find Your Country</h1>
+            <img src="Assets/Cards/PACK.png" alt="Country Pack" class="pack" onclick="openPack()" >
+            <div id="popup" class="popup">
+                <video autoplay loop muted class="rarity-bg">
+                    <source src="Assets/Cards/Walkout.mp4" type="video/mp4">
+                </video>
+                <img src="Assets/Buttons/X.png" class="close" onclick="closePopup()">
+                 <div class="content">
+                    <div class="card-container">
+                        <img id="cardImage" src="" alt="">
+                        <img id="resultImage" src="" alt="">
+                    </div>
+                    <div class="result-info">
+                        <div id="resultRarity"></div>
+                        <div id="result"></div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="bottom-right">
+            <img src="Assets/Buttons/QUESTION.png" onclick="openQuestion()">
+            <img src="Assets/Buttons/LOGOUT.png" id="logoutBtn">
+        </div>
+        <div id="questionup" class="questionup">
+                <div class="board">
+                <img src="Assets/Buttons/X.png" class="closequestion" onclick="closeQuestion()">
+                <img src="Assets/Wallpaper/QUESTIONUP.png" class="boardimg">
+                    <div class="boardtext">
+                    <h1>Pack rarity</h1>
+                    <table class="raritytable">
+                    <tr>
+                        <td><span class="Legend">Legend </span></td>
+                        <td> | </td>
+                        <td> Brazil - Argentina - France</td>
+                    </tr>
+                    <tr>            
+                        <td><span class="Epic">Epic </span></td>
+                        <td> | </td>
+                        <td> Spain -  Morocco -  Portugal</td>
+                    </tr>
+                    <tr>
+                        <td><span class="Rare">Rare </span></td>
+                        <td> | </td>
+                        <td> England - Germany - Belgium</td>
+                    </tr>
+                    <tr>    
+                        <td><span class="Common">Common </span></td>
+                        <td> | </td>
+                        <td> Rest of 39 qualified countries</td>
+                    </tr>   
+                    </table>
+                    </div>
+                </div>
+        </div>
+        <div class="bottom-left">
+            <img src="Assets/Buttons/BAG.png" onclick="openBag()">
+        </div>
+        <div id="bagup" class="bagup">
+            <img src="Assets/Buttons/X.png" class="close" onclick="closeBag()">
+            <div class="inventory-container">
+                <img src="Assets/Wallpaper/Wallpaper1.jpg" class="Inventory">
+
+                <img src="Assets/Buttons/Lock.png" class="Canada">
+                <img src="Assets/Buttons/Lock.png" class="Mexico">
+                <img src="Assets/Buttons/Lock.png" class="USA">
+                <img src="Assets/Buttons/Lock.png" class="Japan">
+                <img src="Assets/Buttons/Lock.png" class="Newzealand">
+                <img src="Assets/Buttons/Lock.png" class="Iran">
+                <img src="Assets/Buttons/Lock.png" class="Argentina">
+                <img src="Assets/Buttons/Lock.png" class="Uzbekistan">
+                <img src="Assets/Buttons/Lock.png" class="Korea">
+                <img src="Assets/Buttons/Lock.png" class="Jordan">
+                <img src="Assets/Buttons/Lock.png" class="Australia">
+                <img src="Assets/Buttons/Lock.png" class="Brazil">
+                <img src="Assets/Buttons/Lock.png" class="Ecuador">
+                <img src="Assets/Buttons/Lock.png" class="Uruguay">
+                <img src="Assets/Buttons/Lock.png" class="Paraguay">
+                <img src="Assets/Buttons/Lock.png" class="Colombia">
+                <img src="Assets/Buttons/Lock.png" class="Morocco">
+                <img src="Assets/Buttons/Lock.png" class="Tunisia">
+                <img src="Assets/Buttons/Lock.png" class="Egypt">
+                <img src="Assets/Buttons/Lock.png" class="Algeria">
+                <img src="Assets/Buttons/Lock.png" class="Ghana">
+                <img src="Assets/Buttons/Lock.png" class="Capeverde">
+                <img src="Assets/Buttons/Lock.png" class="Southafrica">
+                <img src="Assets/Buttons/Lock.png" class="Qatar">
+                <img src="Assets/Buttons/Lock.png" class="Saudiarabia">
+                <img src="Assets/Buttons/Lock.png" class="England">
+                <img src="Assets/Buttons/Lock.png" class="Cotedivoire">
+                <img src="Assets/Buttons/Lock.png" class="Senegal">
+                <img src="Assets/Buttons/Lock.png" class="France">
+                <img src="Assets/Buttons/Lock.png" class="Croatia">
+                <img src="Assets/Buttons/Lock.png" class="Portugal">
+                <img src="Assets/Buttons/Lock.png" class="Norway">
+                <img src="Assets/Buttons/Lock.png" class="Germany">
+                <img src="Assets/Buttons/Lock.png" class="Netherlands">
+                <img src="Assets/Buttons/Lock.png" class="Austria">
+                <img src="Assets/Buttons/Lock.png" class="Belgium">
+                <img src="Assets/Buttons/Lock.png" class="Scotland">
+                <img src="Assets/Buttons/Lock.png" class="Spain">
+                <img src="Assets/Buttons/Lock.png" class="Switzerland">
+                <img src="Assets/Buttons/Lock.png" class="Curacao">
+                <img src="Assets/Buttons/Lock.png" class="Haiti">
+                <img src="Assets/Buttons/Lock.png" class="Panama">
+                <img src="Assets/Buttons/Lock.png" class="Sweden">
+                <img src="Assets/Buttons/Lock.png" class="Turkey">
+                <img src="Assets/Buttons/Lock.png" class="Czech">
+                <img src="Assets/Buttons/Lock.png" class="Bosna">
+                <img src="Assets/Buttons/Lock.png" class="Congodr">
+                <img src="Assets/Buttons/Lock.png" class="Iraq">
+            </div>
+        </div>
+    </section>
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
