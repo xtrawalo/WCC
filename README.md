@@ -2,6 +2,12 @@
 
 WCC is an abbreviation for World Cup Countries and it's a website where u open packs to collect all qualified countries for the World Cup. Everything is saved securely in Firebase.
 
+## Demo
+
+Link here --> [xtrawalo.github.io](xtrawalo.github.io)
+
+Open packs, Try ur luck, Collect countries
+
 ## How to play
 
 ### Create an account
@@ -55,12 +61,6 @@ Click on the pack to open it.
 Check ur collection and unlock all countries
 
 <img src="Assets/Screenshots/Collection.png">
-
-## Demo
-
-Link here --> [xtrawalo.github.io](xtrawalo.github.io)
-
-Open packs, Try ur luck, Collect countries
 
 ## Tech Stack
 
