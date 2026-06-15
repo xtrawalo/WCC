@@ -12,7 +12,7 @@
         { name: "Morocco", tickets: 40, image: "Assets/Countries/MOROCCO.png", rarity: "epic"},
         { name: "Portugal", tickets: 80, image: "Assets/Countries/PORTUGAL.png", rarity: "epic"},
     //Rare    
-        { name: "England", tickets: 1500000000000000, image: "Assets/Countries/ENGLAND.png", rarity: "rare"},
+        { name: "England", tickets: 150, image: "Assets/Countries/ENGLAND.png", rarity: "rare"},
         { name: "Germany", tickets: 200, image: "Assets/Countries/GERMANY.png", rarity: "rare"},
         { name: "Netherlands", tickets: 300, image: "Assets/Countries/NETHERLANDS.png", rarity: "rare" },
     //Common
