@@ -1,24 +1,24 @@
 # WCC
 
-WCC is an abbreviation for World Cup Countries and it's a website where u open packs to collect all qualified countries for the World Cup. Everything is saved securely in Firebase.
+WCC is an abbreviation for World Cup Countries and it's a website where you open packs to collect all qualified countries for the World Cup. Everything is saved securely in Firebase.
 
 ## Demo
 
 Link here --> [xtrawalo.github.io/WCC](https://xtrawalo.github.io/WCC)
 
-**Note:** This website is only for PCs with 1920x1080 resolution
+**Note:** This website is only for PCs with 1920x1080 resolution.
 
-Open packs, Try ur luck, Collect countries
+Open packs, try your luck, and collect countries
 
 ## How to play
 
 ### Create an account
-Register with a username and password. Data saved in Firebase Auth - No one can see ur password
+Register with a username and password. Data saved in Firebase Auth - No one can see your password.
 
 <img src="Assets/Screenshots/Register.png">
 
-### Log in to ur account
-Log in with the same username and password u registered with. U'll find all countries u collected.
+### Log in to your account
+Log in with the same username and password you registered with. You'll find all countries you've collected.
 
 <img src="Assets/Screenshots/Login.png">
 
@@ -59,14 +59,14 @@ Click on the pack to open it.
 
 <img src="Assets/Screenshots/Legend.png">
 
-### Check ur collection
-Check ur collection and unlock all countries
+### Check your collection
+Check your collection and unlock all countries.
 
 <img src="Assets/Screenshots/Collection.png">
 
 ## Tech Stack
 
-- Vanilla Javascript, HTML, CSS.
+- Vanilla JavaScript, HTML, CSS.
 - Firebase Authentication
 - Firebase Firestore
 
@@ -75,11 +75,15 @@ Check ur collection and unlock all countries
 - PC only
 - Recommended resolution: **1920×1080**
 
-## How i build this
+## How I built this
 
 - 30% AI (Chatgpt & Claude) — Rarity algorithm, pack opening logic, inventory unlock
 - 35% YouTube Tutorials — Login & Register pages, Firebase setup
 - 35% My own knowledge — Most of the HTML and CSS, overall design
+
+## Why I built this
+This project is for #horizons program by hackclub.
+**The Goal:** To improve my front-end development skills by creating a pack-opening game related to the 2026 World Cup.
 
 ## Author
 
