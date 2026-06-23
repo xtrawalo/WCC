@@ -29,7 +29,7 @@ WCC is an abbreviation for World Cup Countries and it's a website where you open
 
 Link here --> [xtrawalo.github.io/WCC](https://xtrawalo.github.io/WCC)
 
-**Note:** This website is only for PCs with 1920x1080 resolution.
+**Note:** This website only works well on 1920x1080 rn.
 
 Open packs, try your luck, and collect countries
 
@@ -107,7 +107,7 @@ Check your collection and unlock all countries.
 ## Why I built this
 This project is for #horizons program by hackclub.
 
-**The Goal:** To improve my front-end development skills by creating a pack-opening game related to the 2026 World Cup.
+**The Goal:** making something fun for the World Cup and learn Firebase along the way.
 
 ## Author
 
