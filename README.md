@@ -107,7 +107,7 @@ Check your collection and unlock all countries.
 ## Why I built this
 This project is for #horizons program by hackclub.
 
-**The Goal:** making something fun for the World Cup and learn Firebase along the way.
+**The Goal:** To improve my front-end development skills by creating a pack-opening game related to the 2026 World Cup.
 
 ## Author
 
