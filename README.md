@@ -1,9 +1,29 @@
-<h1 align="center">WCC</h1>
+<h1 align="center">WCC : Website in HTML & CSS & JS</h1>
 <p align="center">
 <img src="Assets/Screenshots/Welcome.png">
+WCC is an abbreviation for World Cup Countries and it's a website where you open packs to collect all qualified countries for the World Cup. Everything is saved securely in Firebase.
 </p>
 
-WCC is an abbreviation for World Cup Countries and it's a website where you open packs to collect all qualified countries for the World Cup. Everything is saved securely in Firebase.
+## Table of content
+
+- [Demo](#demo)
+- [How To Play](#how-to-play)
+  - [Create an account](#create-an-account)
+  - [Log in to your account](#log-in-to-your-account)
+  - [Home page](#home-page)
+  - [Open a pack](#open-a-pack)
+  - [Rarity system](#rarity-system)
+     - [Common](#common)
+     - [Rare](#rare)
+     - [Epic](#epic)
+     - [Legend](#legend)
+  - [Check your collection](#check-your-collection)
+- [Tech Stack](#tech-stack)
+- [Compatibility](#compatibility)
+- [How I built this](#how-i-built-this)
+- [Why I built this](#why-i-built-this)
+- [Author](#author)
+
 
 ## Demo
 
