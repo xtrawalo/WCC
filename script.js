@@ -122,21 +122,33 @@
         window.location.href = "Login.html";
     }
 
-    const userDoc = await getDoc(doc(db, "users", username));
-    const userData = userDoc.data();
-    const ownedCountries = userData?.countries || [];
+let ownedCountries = [];
 
-    function unlockInventory(owned) {
-        for (const countryName of owned) {
-            const cssClass = countryClassMap[countryName];
-            if (!cssClass) continue;
-            const lockImg = document.querySelector(`.${cssClass}`);
-            if (!lockImg) continue;
-            lockImg.src = "Assets/Buttons/Owned.png"
-        }
+function unlockInventory(owned) {
+    for (const countryName of owned) {
+        const cssClass = countryClassMap[countryName];
+        if (!cssClass) continue;
+
+        const lockImg = document.querySelector(`.${cssClass}`);
+        if (!lockImg) continue;
+
+        lockImg.src = "Assets/Buttons/Owned.png";
+    }
+}
+
+try {
+    const userDoc = await getDoc(doc(db, "users", username));
+
+    if (userDoc.exists()) {
+        const userData = userDoc.data();
+        ownedCountries = userData?.countries || [];
     }
 
     unlockInventory(ownedCountries);
+
+} catch (err) {
+    console.error("Failed to load user:", err);
+}
 
     async function openPack() {
 
